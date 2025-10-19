@@ -83,7 +83,8 @@ https://icones.js.org/
 2x推荐——黑曜石（Obsidian）
 https://blog.2b2x.cn/posts/obsidian/
 
-我还没用过~
+太复杂了，整不明白。
+
 我直接用Windows文本编辑器
 
 ## 我的设置：
