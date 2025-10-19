@@ -121,5 +121,10 @@ https://vercel.com/
 手动优选解析 
 *.vercel.182682.xyz
 
+# 评论
+Github的giscus
+
+添加方法：https://thw.lol/posts/fuwari-giscus/
+
 # 其他
 以后在更新吧~
