@@ -85,7 +85,7 @@ https://blog.2b2x.cn/posts/obsidian/
 
 太复杂了，整不明白。
 
-我直接用Windows文本编辑器
+还是老老实实用Visual Studio Code
 
 ## 我的设置：
 写文章老是报错，整不明白
