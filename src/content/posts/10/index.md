@@ -13,7 +13,7 @@ https://www.spaceship.com/zh/domain-transfer-submit/
 
 # 解析
 
-华为云国际版https://www.huaweicloud.com/intl/en-us/
+华为云国际版https://www.huaweicloud.com/intl/zh-cn/
 无需实名认证，不需要手机号码。邮箱即可！
 
 # 更新文章
