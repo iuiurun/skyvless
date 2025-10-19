@@ -80,12 +80,7 @@ icon：你需要前往icones.js去搜索你想要的图标，比如QQ，则填�
 https://icones.js.org/
 
 # 编辑器
-2x推荐——黑曜石（Obsidian）
-https://blog.2b2x.cn/posts/obsidian/
-
-太复杂了，整不明白。
-
-还是老老实实用Visual Studio Code  加上Paste Image插件
+老老实实用Visual Studio Code  加上Paste Image插件
 
 
 ![](2025-10-20-05-18-50.png)
@@ -113,13 +108,18 @@ https://blog.2b2x.cn/posts/obsidian/
 
 粘贴图片（Ctrl+Alt+V），会发现图片就在 md 同级目录,并且插入的就是相对路径的 Markdown 语法。
 
-## 我的设置：
-写文章老是报错，整不明白
+一般写文章是在本地仓库 pnpm dev 浏览器实时预览
 
-设置内容：
+在用Visual Studio Code写
 
-![图片alt](./20043311.png)
+# 部署
+我是部署在vercel
 
-报错项：
+https://vercel.com/
 
-![](./043636.png)
+解析优选 用的是WeTest.Vip
+手动优选解析 
+*.vercel.182682.xyz
+
+# 其他
+以后在更新吧~
