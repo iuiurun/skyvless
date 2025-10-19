@@ -85,7 +85,33 @@ https://blog.2b2x.cn/posts/obsidian/
 
 太复杂了，整不明白。
 
-还是老老实实用Visual Studio Code
+还是老老实实用Visual Studio Code  加上Paste Image插件
+
+
+![](2025-10-20-05-18-50.png)
+
+
+1. 打开插件设置界面
+在 VS Code 左侧点击扩展（或快捷键 Ctrl+Shift+X），找到已安装的 Paste Image 插件。
+点击插件名字，进入详情页后，点击右上角的设置齿轮，选择扩展设置。
+
+2. 通过设置界面配置
+搜索并修改如下两个设置：
+① Paste Image: Path
+搜索“Paste Image: Path”。
+在输入框里填写：
+代码
+```${currentFileDir}```
+这表示图片会保存在当前 markdown 文件的同级目录。
+
+② Paste Image: Insert Pattern
+搜索“Paste Image: Insert Pattern”。
+在输入框里填写：
+代码
+```![](${imageFilePath})```
+这样插入的就是标准的 Markdown 相对路径格式。
+
+粘贴图片（Ctrl+Alt+V），会发现图片就在 md 同级目录,并且插入的就是相对路径的 Markdown 语法。
 
 ## 我的设置：
 写文章老是报错，整不明白
