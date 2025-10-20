@@ -8,6 +8,7 @@ category: 博客
 draft: false
 ---
 # 域名
+
 spaceship购买
 https://www.spaceship.com/zh/domain-transfer-submit/
 
@@ -18,10 +19,12 @@ https://www.spaceship.com/zh/domain-transfer-submit/
 
 # 更新文章
 
-src\content\posts\
+src\content\posts
 新建文件夹（10）——新建index.md
 图片在文件夹下
+
 ## 文章内容
+
 ```
 ---
 title: 标题
@@ -33,16 +36,20 @@ category: 分类
 draft: false
 ---
 ```
+
 # 同步文章
+
 电脑是GitHub Desktop
 https://desktop.github.com/download/
 简单、方便
 
 # 本地预览的话
+
 clone 仓库文件夹
 
 在终端打开
 命令
+
 ```
 pnpm install
 ```
@@ -80,30 +87,28 @@ icon：你需要前往icones.js去搜索你想要的图标，比如QQ，则填�
 https://icones.js.org/
 
 # 编辑器
-老老实实用Visual Studio Code  加上Paste Image插件
 
+老老实实用Visual Studio Code  加上Paste Image插件
 
 ![](2025-10-20-05-18-50.png)
 
-
 1. 打开插件设置界面
-在 VS Code 左侧点击扩展（或快捷键 Ctrl+Shift+X），找到已安装的 Paste Image 插件。
-点击插件名字，进入详情页后，点击右上角的设置齿轮，选择扩展设置。
-
+   在 VS Code 左侧点击扩展（或快捷键 Ctrl+Shift+X），找到已安装的 Paste Image 插件。
+   点击插件名字，进入详情页后，点击右上角的设置齿轮，选择扩展设置。
 2. 通过设置界面配置
-搜索并修改如下两个设置：
-① Paste Image: Path
-搜索“Paste Image: Path”。
-在输入框里填写：
-代码
-```${currentFileDir}```
-这表示图片会保存在当前 markdown 文件的同级目录。
+   搜索并修改如下两个设置：
+   ① Paste Image: Path
+   搜索“Paste Image: Path”。
+   在输入框里填写：
+   代码
+   ``${currentFileDir}``
+   这表示图片会保存在当前 markdown 文件的同级目录。
 
 ② Paste Image: Insert Pattern
 搜索“Paste Image: Insert Pattern”。
 在输入框里填写：
 代码
-```![](${imageFilePath})```
+``![](${imageFilePath})``
 这样插入的就是标准的 Markdown 相对路径格式。
 
 粘贴图片（Ctrl+Alt+V），会发现图片就在 md 同级目录,并且插入的就是相对路径的 Markdown 语法。
@@ -113,18 +118,31 @@ https://icones.js.org/
 在用Visual Studio Code写
 
 # 部署
+
 我是部署在vercel
 
 https://vercel.com/
 
 解析优选 用的是WeTest.Vip
-手动优选解析 
+手动优选解析
 *.vercel.182682.xyz
 
 # 评论
+
 Github的giscus
 
 添加方法：https://thw.lol/posts/fuwari-giscus/
 
+# 友链
+
+是我参照https://blog.kimbleex.top/posts/2025-10-09-fuwari-friends/
+
+然后用GTP 模仿https://pcb.im/friends/
+
+修改而来的。
+
+
+
 # 其他
+
 以后在更新吧~
