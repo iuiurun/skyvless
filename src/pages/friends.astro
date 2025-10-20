@@ -2,7 +2,6 @@
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 import { Icon } from "astro-icon/components";
 ---
-
 <MainGridLayout title="友链">
   <div class="px-4 py-8">
     <div class="flex items-center gap-2 mb-3">
@@ -11,7 +10,7 @@ import { Icon } from "astro-icon/components";
     </div>
     <div class="mb-8 text-base text-gray-500 dark:text-gray-300">
       欢迎来到我的友链页面！这里收录了一些优秀的博客和网站。<br>
-      如果您想要交换友链，请通过邮箱或其他方式联系我。
+      如果您想要交换友链，请通下方评论留言或者发送到我的邮箱。
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -20,7 +19,7 @@ import { Icon } from "astro-icon/components";
         <img src="https://fuwari.oh1.top/avatar.webp" alt="yCENzh's Blog" class="friend-avatar" />
         <div class="friend-meta">
           <div class="flex items-center gap-1 friend-title-row">
-            <a href="https://fuwari.oh1.top/" target="_blank" class="friend-title">yCENzh's Blog</a>
+            <a href="https://fuwari.oh1.top/" target="_blank" class="friend-title text-black dark:text-white">yCENzh's Blog</a>
             <Icon name="material-symbols:open-in-new" class="friend-link-icon" />
           </div>
           <div class="friend-desc">Ciallo～(∠・ω&lt; )⌒☆</div>
@@ -30,7 +29,7 @@ import { Icon } from "astro-icon/components";
         <img src="https://blog.isyyo.com/favicon/logo.png" alt="Wer Blog" class="friend-avatar" />
         <div class="friend-meta">
           <div class="flex items-center gap-1 friend-title-row">
-            <a href="https://blog.isyyo.com/" target="_blank" class="friend-title">Wer Blog</a>
+            <a href="https://blog.isyyo.com/" target="_blank" class="friend-title text-black dark:text-white">Wer Blog</a>
             <Icon name="material-symbols:open-in-new" class="friend-link-icon" />
           </div>
           <div class="friend-desc">The only way to do great is to love what you do</div>
@@ -44,68 +43,101 @@ import { Icon } from "astro-icon/components";
         <Icon name="material-symbols:group" class="text-[1.3rem] text-[var(--primary)]"/>
         将您的网站加入本站友链
       </h2>
+      <blockquote class="p-3 mb-3 rounded bg-gray-100 dark:bg-gray-800 text-sm text-gray-700 dark:text-gray-300 border-l-4 border-[var(--primary)]">
+        <strong>申请友链</strong><br>
+        网站要求：<br>
+        - 内容积极向上，无违法违规内容<br>
+        - 网站可以正常访问<br>
+        <br>
+        友链格式：<br>
+        网站名称：逐梦逸风<br>
+        网站地址：https://966911.xyz/<br>
+        网站描述：记录追梦路上的点滴感悟。分享生活、学习与成长的故事，在微风中逐梦前行。<br>
+        网站头像：https://966911.xyz/_astro/my.oS-3Xo7D_1Fw2qU.webp<br>
+      </blockquote>
       <p class="text-sm text-gray-600 dark:text-gray-400">
-        请自行提交PR <a target="_blank" href="https://github.com/afoim/fuwari/blob/main/src/pages/friends.astro" class="text-[var(--primary)] font-medium underline">点此提交</a>
+        请自行提交PR <a target="_blank" href="https://github.com/iuiurun/skyvless/blob/main/src/pages/friends.astro" class="text-[var(--primary)] font-medium underline">点此提交</a>
       </p>
     </div>
-  </div>
-</MainGridLayout>
 
-<style>
-.friend-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.2rem;
-  padding: 0.8rem 1.2rem;
-  border-radius: 1.2rem;
-  background: transparent;
-  transition: background 0.15s;
-}
-.friend-item:hover {
-  background: rgba(0,0,0,0.03);
-}
-.friend-avatar {
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-  background: #fff;
-  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);
-  flex-shrink: 0;
-}
-.friend-meta {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.friend-title-row {
-  margin-bottom: 2px;
-}
-.friend-title {
-  font-size: 1.28rem;
-  font-weight: 700;
-  color: #222;
-  text-decoration: none;
-  transition: color 0.15s;
-  word-break: break-all;
-}
-.friend-item:hover .friend-title {
-  color: var(--primary);
-}
-.friend-link-icon {
-  font-size: 1rem;
-  color: #bbb;
-  margin-top: 2px;
-}
-.friend-desc {
-  font-size: 1.09rem;
-  color: #888;
-  margin-top: 1px;
-  word-break: break-all;
-  line-height: 1.7;
-}
-.dark .friend-title { color: #fff; }
-.dark .friend-desc { color: #b2bac2; }
-</style>
+    <div is:raw class="giscus-wrapper mt-10">
+      <script src="https://giscus.app/client.js"
+        data-repo="iuiurun/skyvless-giscus"
+        data-repo-id="R_kgDOQFe0jA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOQFe0jM4Cw1sf"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </div>
+  </div>
+
+  <style>
+    .friend-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.2rem;
+      padding: 0.8rem 1.2rem;
+      border-radius: 1.2rem;
+      background: transparent;
+      transition: background 0.15s;
+    }
+    .friend-item:hover {
+      background: rgba(0,0,0,0.03);
+    }
+    .friend-avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: #fff;
+      box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);
+      flex-shrink: 0;
+    }
+    .friend-meta {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .friend-title-row {
+      margin-bottom: 2px;
+    }
+    .friend-title {
+      font-size: 1.28rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: color 0.15s;
+      word-break: break-all;
+    }
+    .friend-item:hover .friend-title {
+      color: var(--primary);
+    }
+    .friend-link-icon {
+      font-size: 1rem;
+      color: #bbb;
+      margin-top: 2px;
+    }
+    .friend-desc {
+      font-size: 1.09rem;
+      color: #888;
+      margin-top: 1px;
+      word-break: break-all;
+      line-height: 1.7;
+    }
+    .dark .friend-desc { color: #b2bac2; }
+    .giscus-wrapper {
+      position: relative;
+      z-index: 10;
+      margin-top: 2.5rem;
+    }
+  </style>
+</MainGridLayout>
