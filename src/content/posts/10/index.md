@@ -160,6 +160,20 @@ Github的giscus
 修改而来的。
 ![](2025-10-26-08-21-39.png)
 
+# 统计
+
+umami统计
+
+https://umami.is/
+
+注册完成，添加网站。统计代码放在/src/layouts/Layout.astro
+
+```
+<link rel="alternate" type="application/rss+xml" title={profileConfig.name} href={`${Astro.site}rss.xml`}/>
+umami统计代码存放位置
+	</head>
+```
+
 # 其他
 
 以后在更新吧~
