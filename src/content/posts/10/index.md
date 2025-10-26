@@ -123,9 +123,27 @@ https://icones.js.org/
 
 https://vercel.com/
 
+2025/10/26
+
+部署更换为netlify
+
+## 解析优选：
+
 解析优选 用的是WeTest.Vip
-手动优选解析
 *.vercel.182682.xyz
+
+2025/10/26
+
+更换https://www.byoip.top/优选
+
+*.netlify.byoip.top
+![](2025-10-26-08-20-59.png)
+
+## 解析查询：
+
+https://uutool.cn/nslookup/
+
+![img](2025-10-26-08-19-56.png)
 
 # 评论
 
@@ -140,8 +158,7 @@ Github的giscus
 然后用GTP 模仿https://pcb.im/friends/
 
 修改而来的。
-
-
+![](2025-10-26-08-21-39.png)
 
 # 其他
 
