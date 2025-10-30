@@ -2,7 +2,7 @@
 title: 可以用职工医保交新农合了
 published: 2025-10-30T06:40:00
 description: 更新一些常用的
-image: "./2025-10-30-09-48-27.png"
+image: "./30102504.png"
 tags: ["医保"]
 category: 博客
 draft: false
