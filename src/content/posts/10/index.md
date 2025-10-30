@@ -1,9 +1,10 @@
 ---
 title: 我的博客记录
 published: 2025-10-20T06:40:00
-description: "更新一些常用的"
+description: 更新一些常用的
 image: ""
-tags: ["标签"]
+tags:
+  - 标签
 category: 博客
 draft: false
 ---
