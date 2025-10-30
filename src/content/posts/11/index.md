@@ -30,4 +30,4 @@ draft: false
 
 看视频自己操作：
 
-<iframe width="100%" height="468" src="https://www.douyin.com/video/7566204685272206643https://aweme.snssdk.com/aweme/v1/play/?video_id=v0300fg10000d408nrfog65jb2h2pt9g&ratio=1080p" title="抖音" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="468" src="https://aweme.snssdk.com/aweme/v1/play/?video_id=v0300fg10000d408nrfog65jb2h2pt9g&ratio=1080p" title="抖音" frameborder="0" allowfullscreen></iframe>
