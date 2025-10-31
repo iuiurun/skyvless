@@ -37,4 +37,4 @@ draft: false
 ###  本省缴纳指南（视频教程）
 
 
-<iframe width="100%" height="468" src="https://v3-default.365yg.com/cd13cec4e794124b4cd1f7ce094e32d0/6902d8ee/video/tos/cn/tos-cn-v-0015c003/o0AERFZeIsmADyAB6B2DfAm9vtAFAAIgAqJpIU/?a=0&ch=0&cr=0&dr=0&er=6&lr=unwatermarked&net=5&cd=0%7C0%7C0%7C0&cv=1&br=8153&bt=8153&ds=4&ft=k7Fz7VVywIiRZm8Zmo~pK7pswApUNAe_vrKlISd2do0g3cI&mime_type=video_mp4&qs=13&rc=anc1NW05cnU7NzMzNGkzM0Bpanc1NW05cnU7NzMzNGkzM0A2bWVfMmRjay1hLS1kLTBzYSM2bWVfMmRjay1hLS1kLTBzcw%3D%3D&btag=80000e00018000&cquery=106H&dy_q=1761790645&l=20251030101725815657679260E3D4E234" title="抖音" frameborder="0" allowfullscreen></iframe>
+https://www.douyin.com/video/7566204685272206643
