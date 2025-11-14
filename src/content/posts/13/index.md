@@ -5,7 +5,7 @@ published: 2025-11-14T10:15:12
 description: "无资本裹挟的良心工具！原版图吧工具箱纯净版和箱子验机图文，直接冲不踩坑"
 image: "./Screenshot_2025-11-14-23-46-21-04_2332cb9b27b851b548ba47a91682926c.jpg"
 tags: ["图吧工具箱"]
-category: 分享
+category: 软件
 draft: false
 ---
 
