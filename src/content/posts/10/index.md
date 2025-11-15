@@ -124,21 +124,27 @@ https://icones.js.org/
 
 https://vercel.com/
 
-2025/10/26
+~~2025/10/26~~
 
 部署更换为netlify
-
-## 解析优选：
 
 解析优选 用的是WeTest.Vip
 *.vercel.182682.xyz
 
-2025/10/26
+~~2025/10/26~~
 
 更换https://www.byoip.top/优选
 
 *.netlify.byoip.top
+
 ![](2025-10-26-08-20-59.png)
+
+## 2025/11/15 cloudflare优选
+
+部署在cloudflare pages
+优选使用
+*.cloudflare.byoip.top
+
 
 ## 解析查询：
 
