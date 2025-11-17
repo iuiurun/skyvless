@@ -30,16 +30,6 @@ open删掉就可以折叠，反之展开。可以用HTML语法，譬如：```<a 
 </details>
 
 <details>
-  <summary>2025/11/15 部署在cloudflare works并且优选</summary>
-弃用vercel是因为国内电信访问超慢，并且有许多地区无法打开！
-
-优选域名来自：cf.090227.xyz推荐的：saas.sin.fan
-
-采用：Worker路由反代全球并优选（新）
-教程来自：<a href="https://blog.2b2x.cn/posts/cf-fastip/">2x.nz</a>
-</details>
-
-<details>
   <summary>2025-11-07添加统计</summary>
 umami统计
 
@@ -55,7 +45,7 @@ umami统计代码存放位置
 </details>
 
 <details>
-  <summary>2025-11-05 添加友链</summary>
+  <summary>2025-11-06添加友链</summary>
 是我参照https://blog.kimbleex.top/posts/2025-10-09-fuwari-friends/
 
 然后用GTP 模仿https://pcb.im/friends/
@@ -66,7 +56,7 @@ umami统计代码存放位置
 </details>
 
 <details>
-  <summary>2025-11-04 添加评论</summary>
+  <summary>2025-11-04添加评论</summary>
 评论
 
 Github的giscus
@@ -75,11 +65,21 @@ Github的giscus
 </details>
 
 <details>
-  <summary>2025-11-03备用一个解析查询</summary>
+  <summary>2025-11-04备用一个解析查询</summary>
 解析查询：
 https://uutool.cn/nslookup/
 
 ![img](2025-10-26-08-19-56.png)
+</details>
+
+<details>
+  <summary>2025/11/15 部署在cloudflare works并且优选</summary>
+弃用vercel是因为国内电信访问超慢，并且有许多地区无法打开！
+
+优选域名来自：cf.090227.xyz推荐的：saas.sin.fan
+
+采用：Worker路由反代全球并优选（新）
+教程来自：<a href="https://blog.2b2x.cn/posts/cf-fastip/">2x.nz</a>
 </details>
 
 <details>
