@@ -1,6 +1,6 @@
 ---
 title: 我的博客折腾记录
-published: 2023-09-09
+published: 2025-10-20
 description: 折腾记录，可以展开详细查看。
 image: ./IMG_20251118_002822.png
 tags: [折腾,博客]
