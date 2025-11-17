@@ -1,94 +1,106 @@
 ---
 title: 我的博客记录
 published: 2025-10-20T06:40:00
-description: 更新一些常用的
+description: 折腾记录，可以展开详细查看。
 image: ""
 tags:
   - 标签
 category: 博客
 draft: false
 ---
-# 域名
+<details>
+  <summary>2025-11-17增加首页图标</summary>
+修改src/content/config.ts
+图标在https://icones.js.org/查找
+	
+![](2025-11-17-21-44-01.png)
+</details>
 
-spaceship购买
-https://www.spaceship.com/zh/domain-transfer-submit/
-
-# 解析
-
-华为云国际版https://www.huaweicloud.com/intl/zh-cn/
-无需实名认证，不需要手机号码。邮箱即可！
-
-# 更新文章
-
-src\content\posts
-新建文件夹（10）——新建index.md
-图片在文件夹下
-
-## 文章内容
+<details>
+  <summary>2025-11-17添加折叠</summary>
 
 ```
----
-title: 标题
-published: 2025-10-20
-description: "描述"
-image: "./cover.jpeg"
-tags: ["标签"]
-category: 分类
-draft: false
----
+<details>
+  <summary>折叠</summary>
+  内容
+</details>
 ```
 
-# 同步文章
+open删掉就可以折叠，反之展开。可以用HTML语法，譬如：```<a href="URL">链接文本</a>```
+</details>
 
-电脑是GitHub Desktop
-https://desktop.github.com/download/
-简单、方便
+<details>
+  <summary>2025-11-07添加统计</summary>
+umami统计
 
-# 本地预览的话
+https://umami.is/
 
-clone 仓库文件夹
-
-在终端打开
-命令
+注册完成，添加网站。统计代码放在/src/layouts/Layout.astro
 
 ```
-pnpm install
+<link rel="alternate" type="application/rss+xml" title={profileConfig.name} href={`${Astro.site}rss.xml`}/>
+umami统计代码存放位置
+	</head>
 ```
+</details>
 
-```
-pnpm dev
-```
+<details>
+  <summary>2025-11-06添加友链</summary>
+是我参照https://blog.kimbleex.top/posts/2025-10-09-fuwari-friends/
 
-浏览器打开：http://localhost:4321/
+然后用GTP 模仿https://pcb.im/friends/
 
-# Fuwari的基本信息修改
+修改而来的。
+![](2025-10-26-08-21-39.png)
 
-title：你的博客主标题
+</details>
 
-subtitle：你的博客副标题。可选，在首页会显示为“主标题 - 副标题”
+<details>
+  <summary>2025-11-04添加评论</summary>
+评论
 
-lang：博客显示语言。注释已经列出了一些常用的值，如：en, zh_CN, zh_TW, ja, ko
+Github的giscus
 
-themeColor：hue值则是你的博客主题色，可以在你的博客右上角的画板图标确定喜欢的颜色再填写
+添加方法：https://thw.lol/posts/fuwari-giscus/
+</details>
 
-banner：src：即banner图片，支持http/https URL
+<details>
+  <summary>备用一个解析查询</summary>
+解析查询：
+https://uutool.cn/nslookup/
 
-favicon：src：即网站图标，支持http/https URL
+![img](2025-10-26-08-19-56.png)
+</details>
 
-links：即友情链接，这些链接在导航栏上
+<details>
+  <summary>2025/11/15 部署在cloudflare works并且优选</summary>
+弃用vercel是因为国内电信访问超慢，并且有许多地区无法打开！
 
-avatar：即你的头像
+优选域名来自：cf.090227.xyz推荐的：saas.sin.fan
 
-name：即你的名字
+采用：Worker路由反代全球并优选（新）
+教程来自：<a href="https://blog.2b2x.cn/posts/cf-fastip/">2x.nz</a>
+</details>
 
-bio：即个性签名，会显示在头像和名字下面
+<details>
+  <summary>2025-11-02 博客部署vercel</summary>
+部署在vercel
 
-NavBarConfig 为导航栏设置的超链接。ProfileConfig 为你的用户的超链接
-icon：你需要前往icones.js去搜索你想要的图标，比如QQ，则填写 fa6-brands:qq ，如图。Fuwari默认支持这几种类型：fa6-brands, fa6-regular, fa6-solid, material-symbols。可以在 astro.config.mjs 中搜索关键字进行配置
-https://icones.js.org/
+https://vercel.com/
+解析优选 用的是WeTest.Vip:
 
-# 编辑器
+*.vercel.182682.xyz
 
+2025/10/26 部署更换为netlify
+更换https://www.byoip.top/优选
+
+*.netlify.byoip.top
+![](2025-10-26-08-20-59.png)
+
+</details>
+
+<details>
+  <summary>2025-09-15 电脑编辑器推荐</summary>
 老老实实用Visual Studio Code  加上Paste Image插件
 
 ![](2025-10-20-05-18-50.png)
@@ -117,76 +129,97 @@ https://icones.js.org/
 一般写文章是在本地仓库 pnpm dev 浏览器实时预览
 
 在用Visual Studio Code写
+</details>
 
-# 部署
+<details>
+  <summary>2024-12-25 Fuwari的基本信息修改</summary>
+  title：你的博客主标题
 
-~~我是部署在vercel~~ 
+subtitle：你的博客副标题。可选，在首页会显示为“主标题 - 副标题”
 
-https://vercel.com/
+lang：博客显示语言。注释已经列出了一些常用的值，如：en, zh_CN, zh_TW, ja, ko
 
-2025/11/16部署在cloudfare works
+themeColor：hue值则是你的博客主题色，可以在你的博客右上角的画板图标确定喜欢的颜色再填写
 
-~~2025/10/26~~
+banner：src：即banner图片，支持http/https URL
 
-部署更换为netlify
+favicon：src：即网站图标，支持http/https URL
 
-解析优选 用的是WeTest.Vip
-*.vercel.182682.xyz
+links：即友情链接，这些链接在导航栏上
 
-~~2025/10/26~~
+avatar：即你的头像
 
-更换https://www.byoip.top/优选
+name：即你的名字
 
-*.netlify.byoip.top
+bio：即个性签名，会显示在头像和名字下面
 
-![](2025-10-26-08-20-59.png)
+NavBarConfig 为导航栏设置的超链接。ProfileConfig 为你的用户的超链接
 
-## 2025/11/15 cloudflare优选
+icon：你需要前往icones.js去搜索你想要的图标，比如QQ，则填写 fa6-brands:qq ，如图。Fuwari默认支持这几种类型：fa6-brands, fa6-regular, fa6-solid, material-symbols。可以在 astro.config.mjs 中搜索关键字进行配置
+https://icones.js.org/
+</details>
 
-部署在cloudflare pages
-优选使用
-*.cloudflare.byoip.top
 
-## 解析查询：
+<details>
+  <summary>2025-12-21同步文章</summary>
+电脑是GitHub Desktop
+https://desktop.github.com/download/
+简单、方便
 
-https://uutool.cn/nslookup/
+本地预览的话
 
-![img](2025-10-26-08-19-56.png)
+clone 仓库文件夹
 
-# 评论
-
-Github的giscus
-
-添加方法：https://thw.lol/posts/fuwari-giscus/
-
-# 友链
-
-是我参照https://blog.kimbleex.top/posts/2025-10-09-fuwari-friends/
-
-然后用GTP 模仿https://pcb.im/friends/
-
-修改而来的。
-![](2025-10-26-08-21-39.png)
-
-# 统计
-
-umami统计
-
-https://umami.is/
-
-注册完成，添加网站。统计代码放在/src/layouts/Layout.astro
+在终端打开
+命令
 
 ```
-<link rel="alternate" type="application/rss+xml" title={profileConfig.name} href={`${Astro.site}rss.xml`}/>
-umami统计代码存放位置
-	</head>
+pnpm install
 ```
 
-# 首页图标：
+```
+pnpm dev
+```
 
-![](2025-11-17-21-44-01.png)
-修改src/config.ts 图标查找：[https://icones.js.org/](https://icones.js.org/)
+浏览器打开：http://localhost:4321/
 
-# 其他
+</details>
 
-以后在更新吧~
+
+<details>
+  <summary>2025-12-20 Fuwari文章前置内容</summary>
+```
+---
+title: 标题
+published: 2025-10-20
+description: "描述"
+image: "./cover.jpeg"
+tags: ["标签"]
+category: 分类
+draft: false
+---
+```
+title	帖子的标题。
+published	帖子发布的日期，时间在日期后加T22:18:00
+description	帖子的简短描述。显示在索引页面上。
+image	帖子的封面图片路径.
+1.开头 或 ：使用网页图片
+2.开头为 ：对于本目录./图片名称
+3 中的图像。没有任何前缀：相对于 markdown 文件http://https:///public
+tags	帖子的标签。
+category	帖子的类别。
+</details>
+
+
+<details>
+  <summary>2024-12-20域名解析</summary>
+华为云国际版<a href="https://www.huaweicloud.com/intl/zh-cn/">https://www.huaweicloud.com/intl/zh-cn/</a>
+无需实名认证，不需要手机号码。邮箱即可！
+</details>
+
+
+<details>
+  <summary>2024-12-15在spaceship购入域名</summary>
+<a href="https://www.spaceship.com/zh/domain-transfer-submit/">https://www.spaceship.com/zh/domain-transfer-submit/</a>
+6位xyz域名新购和续费只要4块钱一年
+</details>
