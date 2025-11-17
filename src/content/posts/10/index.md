@@ -18,6 +18,8 @@ draft: false
 
 <details>
   <summary>2025-11-17添加折叠</summary>
+  
+html折叠：
 
 ```
 <details>
@@ -27,6 +29,17 @@ draft: false
 ```
 
 open删掉就可以折叠，反之展开。可以用HTML语法，譬如：```<a href="URL">链接文本</a>```
+
+
+markdown折叠：
+```
+<details markdown open><summary>展开/收起</summary>
+
+open删除立刻收起
+
+</details>
+
+```
 </details>
 
 <details>
