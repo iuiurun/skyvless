@@ -76,6 +76,18 @@ umami统计代码存放位置
 修改而来的。
 ![](2025-10-26-08-21-39.png)
 
+```<!--友链01-->
+      <div class="friend-item">
+        <img src="头像" alt="" class="friend-avatar" />
+        <div class="friend-meta">
+          <div class="flex items-center gap-1 friend-title-row">
+            <a href="链接" target="_blank" class="friend-title text-black dark:text-white">名字</a>
+            <Icon name="material-symbols:open-in-new" class="friend-link-icon" />
+          </div>
+          <div class="friend-desc">描述</div>
+        </div>
+      </div>
+```
 </details>
 
 <details>
