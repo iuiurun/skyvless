@@ -2,7 +2,7 @@
 title: 红龙 KS99 常用按键功能
 published: 2025-08-25T06:40:00
 description: "红龙 KS99 说明书 - 红龙 KS99 按键功能"
-image: "./IMG_20251117_232041.png"
+image: "./IMG_20251117_232041.jpg"
 tags: ["realme UI"]
 category: 分享
 draft: false

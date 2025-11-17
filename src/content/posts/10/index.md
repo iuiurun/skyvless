@@ -65,7 +65,7 @@ Github的giscus
 </details>
 
 <details>
-  <summary>备用一个解析查询</summary>
+  <summary>2025-11-04备用一个解析查询</summary>
 解析查询：
 https://uutool.cn/nslookup/
 
