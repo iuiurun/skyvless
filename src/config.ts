@@ -58,6 +58,11 @@ export const profileConfig: ProfileConfig = {
 	name: "逐梦逸风",
 	bio: "记录追梦路上的点滴感悟。分享生活、学习与成长的故事，在微风中逐梦前行。",
 	links: [
+	{
+			name: "GitHub",
+			icon: "fa6-brands:github",
+			url: "https://github.com/iuiurun",
+		},
 		{
 			name: "Twitter",
 			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
@@ -66,15 +71,17 @@ export const profileConfig: ProfileConfig = {
 			url: "https://twitter.com/skyvless",
 		},
 		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
+			name: "telegram",
+			icon: "fa6-brands:telegram",
+			url: "https://t.me/skyvless",
 		},
 		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/iuiurun",
+			name: "Mail",
+			icon: "material-symbols:outgoing-mail",
+			url: "mailto:skyvless@outlook.com?subject=邮件主题&cc=&body=内容",
 		},
+				
+		
 	],
 };
 
