@@ -120,9 +120,11 @@ https://icones.js.org/
 
 # 部署
 
-我是部署在vercel
+~~我是部署在vercel~~ 
 
 https://vercel.com/
+
+2025/11/16部署在cloudfare works
 
 ~~2025/10/26~~
 
@@ -144,7 +146,6 @@ https://vercel.com/
 部署在cloudflare pages
 优选使用
 *.cloudflare.byoip.top
-
 
 ## 解析查询：
 
@@ -180,6 +181,11 @@ https://umami.is/
 umami统计代码存放位置
 	</head>
 ```
+
+# 首页图标：
+
+![](2025-11-17-21-44-01.png)
+修改src/config.ts 图标查找：[https://icones.js.org/](https://icones.js.org/)
 
 # 其他
 
