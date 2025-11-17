@@ -2,12 +2,12 @@
 title: 我的博客记录
 published: 2025-10-20T06:40:00
 description: 折腾记录，可以展开详细查看。
-image: ""
-tags:
-  - 标签
+image: "./IMG_20251118_002822.png"
+tags:["标签"]
 category: 博客
 draft: false
 ---
+
 <details>
   <summary>2025-11-17增加首页图标</summary>
 修改src/content/config.ts
@@ -213,6 +213,7 @@ pnpm dev
 
 <details>
   <summary>2024-07-06 Fuwari文章前置内容</summary>
+  
 ```
 ---
 title: 标题
@@ -223,7 +224,9 @@ tags: ["标签"]
 category: 分类
 draft: false
 ---
+
 ```
+
 title	帖子的标题。
 published	帖子发布的日期，时间在日期后加T22:18:00
 description	帖子的简短描述。显示在索引页面上。
