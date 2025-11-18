@@ -1,13 +1,13 @@
 ---
-title: 我的博客记录
-published: 2025-10-20T06:40:00
+title: 我的博客折腾记录
+published: 2025-10-20
 description: 折腾记录，可以展开详细查看。
-image: ""
-tags:
-  - 标签
+image: ./IMG_20251118_002822.png
+tags: [折腾,博客]
 category: 博客
 draft: false
 ---
+
 <details>
   <summary>2025-11-17增加首页图标</summary>
 修改src/content/config.ts
@@ -18,6 +18,8 @@ draft: false
 
 <details>
   <summary>2025-11-17添加折叠</summary>
+  
+html折叠：
 
 ```
 <details>
@@ -27,6 +29,27 @@ draft: false
 ```
 
 open删掉就可以折叠，反之展开。可以用HTML语法，譬如：```<a href="URL">链接文本</a>```
+
+
+markdown折叠：
+```
+<details markdown open><summary>展开/收起</summary>
+
+open删除立刻收起
+
+</details>
+
+```
+</details>
+
+<details>
+  <summary>2025/11/15 部署在cloudflare works并且优选</summary>
+弃用vercel是因为国内电信访问超慢，并且有许多地区无法打开！
+
+优选域名来自：cf.090227.xyz推荐的：saas.sin.fan
+
+采用：Worker路由反代全球并优选（新）
+教程来自：<a href="https://blog.2b2x.cn/posts/cf-fastip/">2x.nz</a>
 </details>
 
 <details>
@@ -45,7 +68,7 @@ umami统计代码存放位置
 </details>
 
 <details>
-  <summary>2025-11-06添加友链</summary>
+  <summary>2025-11-05 添加友链</summary>
 是我参照https://blog.kimbleex.top/posts/2025-10-09-fuwari-friends/
 
 然后用GTP 模仿https://pcb.im/friends/
@@ -53,10 +76,22 @@ umami统计代码存放位置
 修改而来的。
 ![](2025-10-26-08-21-39.png)
 
+```<!--友链01-->
+      <div class="friend-item">
+        <img src="头像" alt="" class="friend-avatar" />
+        <div class="friend-meta">
+          <div class="flex items-center gap-1 friend-title-row">
+            <a href="链接" target="_blank" class="friend-title text-black dark:text-white">名字</a>
+            <Icon name="material-symbols:open-in-new" class="friend-link-icon" />
+          </div>
+          <div class="friend-desc">描述</div>
+        </div>
+      </div>
+```
 </details>
 
 <details>
-  <summary>2025-11-04添加评论</summary>
+  <summary>2025-11-04 添加评论</summary>
 评论
 
 Github的giscus
@@ -65,21 +100,11 @@ Github的giscus
 </details>
 
 <details>
-  <summary>备用一个解析查询</summary>
+  <summary>2025-11-03备用一个解析查询</summary>
 解析查询：
 https://uutool.cn/nslookup/
 
 ![img](2025-10-26-08-19-56.png)
-</details>
-
-<details>
-  <summary>2025/11/15 部署在cloudflare works并且优选</summary>
-弃用vercel是因为国内电信访问超慢，并且有许多地区无法打开！
-
-优选域名来自：cf.090227.xyz推荐的：saas.sin.fan
-
-采用：Worker路由反代全球并优选（新）
-教程来自：<a href="https://blog.2b2x.cn/posts/cf-fastip/">2x.nz</a>
 </details>
 
 <details>
@@ -132,7 +157,7 @@ https://vercel.com/
 </details>
 
 <details>
-  <summary>2024-12-25 Fuwari的基本信息修改</summary>
+  <summary>2024-07-07 Fuwari的基本信息修改</summary>
   title：你的博客主标题
 
 subtitle：你的博客副标题。可选，在首页会显示为“主标题 - 副标题”
@@ -161,7 +186,7 @@ https://icones.js.org/
 
 
 <details>
-  <summary>2025-12-21同步文章</summary>
+  <summary>2025-07-07同步文章</summary>
 电脑是GitHub Desktop
 https://desktop.github.com/download/
 简单、方便
@@ -187,7 +212,8 @@ pnpm dev
 
 
 <details>
-  <summary>2025-12-20 Fuwari文章前置内容</summary>
+  <summary>2024-07-06 Fuwari文章前置内容</summary>
+  
 ```
 ---
 title: 标题
@@ -198,7 +224,9 @@ tags: ["标签"]
 category: 分类
 draft: false
 ---
+
 ```
+
 title	帖子的标题。
 published	帖子发布的日期，时间在日期后加T22:18:00
 description	帖子的简短描述。显示在索引页面上。
@@ -210,6 +238,12 @@ tags	帖子的标签。
 category	帖子的类别。
 </details>
 
+
+<details>
+  <summary>2024-12-20 在cloudflare创建了RIN博客</summary>
+<a href="https://github.com/openRin/Rin">Rin 是一个基于 Cloudflare Pages + Workers + D1 + R2 全家桶的博客，无需服务器无需备案，只需要一个解析到 Cloudflare 的域名即可部署。</a>  
+访问太慢了，找不到优选的办法。
+</details>
 
 <details>
   <summary>2024-12-20域名解析</summary>
