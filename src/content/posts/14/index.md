@@ -30,7 +30,7 @@ https://www.cloudflarestatus.com
 
 Cloudflare 遭遇大规模故障 我也是第一次遇到，之前没使用Cloudflare 的CDN加速，只遇到其他网站用CDN加速或者部署在Cloudflare 的网站有500报错。
 
-出现这种问题，我第一时间想的是**登录Cloudflare 控制台 修改DNS解析（我的博客在）** 有部署，可是问题来了！
+出现这种问题，我第一时间想的是**登录Cloudflare 控制台 修改DNS解析（我的博客在netlify）** 有部署，可是问题来了！
 
 Cloudflare崩溃 导致 控制台 无法进入😂
 
