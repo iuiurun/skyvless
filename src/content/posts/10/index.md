@@ -223,10 +223,10 @@ pnpm dev
 ```
 ---
 title: 标题
-published: 2025-10-20
+published: 2025-11-20
 description: "描述"
-image: "./cover.jpeg"
-tags: ["标签"]
+image: "./cover.jpeg""
+tags: [标签]
 category: 分类
 draft: false
 ---
