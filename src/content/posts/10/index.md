@@ -7,6 +7,12 @@ tags: [折腾,博客]
 category: 博客
 draft: false
 ---
+<details markdown><summary>2025-11-19 添加音乐播放器</summary>
+
+## 添加音乐播放器
+明月浩空播放器 https://myhkw.cn/
+
+</details>
 
 <details>
   <summary>2025-11-17增加首页图标</summary>
